@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Shadows+Into+Light&family=Zeyada&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="mobile-weather">
+        <div class="input-search">
+          <input type="search" />
+          <a class="btn-search"><img src="./assets/search.svg" alt="" /> </a>
+        </div>
+        <div class="weather-date text-center">
+          <h1></h1>
+          <small></small>
+        </div>
+        <img class="main-image" src="./assets/thunder.svg" alt="" />
+        <div class="weather-data text-center">
+          <div class="degrees">
+            <h1 class="degrees-now"></h1>
+            <p class="min-max"></p>
+          </div>
+          <div class="location">
+            <p class="city"></p>
+            <img src="./assets/location.svg" alt="" />
+          </div>
+        </div>
+
+        <article class="next-wheather"></article>
+        <template id="template-next-wheather">
+          <div>
+            <img />
+            <p class="day"></p>
+            <small class="degrees"></small>
+          </div>
+        </template>
+      </section>
+
+      <!--       <section class="desktop-weather">
+        <article class="main-weather text-center">
+          <div class="weather-date">
+            <h1>Martes</h1>
+            <p>26/07/2024</p>
+          </div>
+          <img class="main-image" src="./assets/thunder.svg" alt="" />
+          <div class="weather-data text-center">
+            <div class="degrees">
+              <h1 class="degrees-now">31°C</h1>
+              <p class="min-max">34°/18°</p>
+            </div>
+            <div class="location">
+              <p class="city">Guadalajara</p>
+              <img src="./assets/location.svg" alt="" />
+            </div>
+          </div>
+        </article>
+        <article class="search-weather-d">
+          <div class="input-search">
+            <input type="search" />
+            <a class="btn-search"><img src="./assets/search.svg" alt="" /> </a>
+          </div>
+          <div class="information-weather">
+            <table>
+              <tr class="name">
+                <td>Nombre</td>
+                <td>Guadalajara</td>
+              </tr>
+              <tr class="temp">
+                <td>Temperatura</td>
+                <td>28°C</td>
+              </tr>
+              <tr class="humidity">
+                <td>Humedad</td>
+                <td>30%</td>
+              </tr>
+              <tr class="Wind Speed">
+                <td>Velocidad del Viento</td>
+                <td>3.09 km/h</td>
+              </tr>
+            </table>
+          </div>
+          <article class="">
+            <div>
+              <img src="./assets/rainy-5.svg" />
+              <p class="day">Lun</p>
+              <p class="degrees">30%</p>
+            </div>
+            <div>
+              <img src="./assets/day.svg" />
+              <p class="day">Mar</p>
+              <p class="degrees">30%</p>
+            </div>
+            <div>
+              <img src="./assets/cloudy-day-2.svg" />
+              <p class="day">Lun</p>
+              <p class="degrees">30%</p>
+            </div>
+            <div>
+              <img src="./assets/snowy-6.svg" />
+              <p class="day">Lun</p>
+              <p class="degrees">30%</p>
+            </div>
+          </article>
+        </article>
+      </section> -->
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
